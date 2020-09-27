@@ -123,7 +123,7 @@ func main() {
 		fmt.Printf("Object: %s Error: %s Count: %d\n", oMCnt[i].objName, oMCnt[i].oErr, oMCnt[i].eCount)
 	}
 	oTestCnt += 1
-	fmt.Printf("File Processed with %d line(s).\n", lineCount)
+	fmt.Printf("File processed with %d line(s).\n", lineCount)
 	fmt.Println("TomcatLogParse Finished")
 
 }
